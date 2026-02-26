@@ -1,0 +1,22 @@
+fusion_node:
+  ros__parameters:
+    rate: 10.0
+
+    det_inputs:
+      - /yolos_detector1/detections
+      - /yolos_detector2/detections
+      - /yolos_detector3/detections
+      - /yolos_detector4/detections
+      - /yolos_detector5/detections
+      - /yolos_detector6/detections
+
+    img_inputs:
+      - /yolos_detector3/debug_image
+      - /yolos_detector1/debug_image
+      - /yolos_detector2/debug_image
+      - /yolos_detector5/debug_image
+      - /yolos_detector6/debug_image
+      - /yolos_detector4/debug_image
+
+    output_det: /fused/detections
+    output_img: /fused/debug_image
