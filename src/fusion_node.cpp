@@ -114,7 +114,7 @@ private:
   }
 
   // ----------------------------------------------------
-  // Detection Freshness Logic (Python-equivalent)
+  // Detection Freshness Logic
   // ----------------------------------------------------
   void publishDetections()
   {
