@@ -79,7 +79,11 @@ USAGE
 PARAMETERS
 ------------------------------------------------------------
 
-Defined in config/fusion_params.yaml.
+Defined in config/fusion_params.yaml
+
+- Input Detection and Image Topics
+- Grid size: Rows and Columns
+- Tile Width and Height
 
 ------------------------------------------------------------
 IMAGE STITCHING LAYOUT
