@@ -25,5 +25,5 @@ fusion_node:
     # -------- STITCHING PARAMETERS --------
     grid_rows: 1
     grid_cols: 3
-    tile_width: 320
-    tile_height: 240
+    tile_width: 640
+    tile_height: 480
