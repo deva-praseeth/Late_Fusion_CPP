@@ -2,6 +2,7 @@ fusion_node:
   ros__parameters:
     rate: 10.0
 
+    # -------- Fusion Topics --------
     det_inputs:
       - /yolos_detector1/detections
       - /yolos_detector2/detections
@@ -12,11 +13,17 @@ fusion_node:
 
     img_inputs:
       - /yolos_detector3/debug_image
-      - /yolos_detector1/debug_image
       - /yolos_detector2/debug_image
-      - /yolos_detector5/debug_image
-      - /yolos_detector6/debug_image
       - /yolos_detector4/debug_image
+#     - /yolos_detector4/debug_image
+#     - /yolos_detector5/debug_image
+#     - /yolos_detector6/debug_image
 
     output_det: /fused/detections
     output_img: /fused/debug_image
+
+    # -------- NEW PARAMETERS --------
+    grid_rows: 1
+    grid_cols: 3
+    tile_width: 320
+    tile_height: 240
