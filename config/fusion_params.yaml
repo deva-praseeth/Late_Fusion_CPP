@@ -22,7 +22,7 @@ fusion_node:
     output_det: /fused/detections
     output_img: /fused/debug_image
 
-    # -------- NEW PARAMETERS --------
+    # -------- STITCHING PARAMETERS --------
     grid_rows: 1
     grid_cols: 3
     tile_width: 320
